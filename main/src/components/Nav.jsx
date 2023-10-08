@@ -16,7 +16,7 @@ export default function Nav() {
       <Link key={3} className="nav-link text-light" to="/Work">
         Portfolio
       </Link>,
-      <Link key={4} className="nav-link text-light" to="/About">
+      <Link key={4} className="nav-link text-light" to="/Contact">
         Contact
       </Link>,
       <Link key={5} className="nav-link text-light" to="/Resume">
