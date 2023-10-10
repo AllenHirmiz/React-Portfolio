@@ -7,7 +7,7 @@ export default function aboutme() {
           <h1 className="text-center">Hello & Welcome! </h1>
           <h2 className="text-center bold">My name is Allen Hirmiz. </h2>
           <img
-            src={"/images/IMG_3750.jpg"}
+            src={"/images/allenhirmiz.jpg"}
             alt="Profile Picture of Allen Hirmiz"
             className="rounded-circle col-1"
             style={{ width: "25%", height: "25%" }}

@@ -120,3 +120,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  width: 18rem;
+}
+
+.img-fluid {
+  max-height: 750px;
+  overflow: hidden;
+}
+
+.highlight {background-color: red;}
+
+.active {
+  background-color: yellowgreen;
+  font-weight: bold;
+}

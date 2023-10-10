@@ -59,3 +59,9 @@
   padding: 25px;
   border: black solid 1px;
 }
+
+
+.card-thumbnail {
+  max-height: 250px;
+  overflow: hidden;
+}
