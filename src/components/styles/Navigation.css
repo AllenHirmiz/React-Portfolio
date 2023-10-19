@@ -1,3 +1,7 @@
+nav {
+    background-color: #213033;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -42,4 +46,30 @@ nav button.active {
 
 nav button.inactive {
     /* You can leave this empty or add any additional styles for the inactive state, if needed */
+}
+
+
+
+.navbar-brand, .navbar-nav {
+    color: #fff;
+}
+
+
+.header-style {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid white; 
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }

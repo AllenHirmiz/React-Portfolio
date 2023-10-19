@@ -8,6 +8,31 @@ function Portfolio() {
             title: "Fit-Connect Pro",
             image: FitConnectPro,
             repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+        },
+        {
+            title: "Fit-Connect Pro",
+            image: FitConnectPro,
+            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+        },
+        {
+            title: "Fit-Connect Pro",
+            image: FitConnectPro,
+            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+        },
+        {
+            title: "Fit-Connect Pro",
+            image: FitConnectPro,
+            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+        },
+        {
+            title: "Fit-Connect Pro",
+            image: FitConnectPro,
+            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+        },
+        {
+            title: "Fit-Connect Pro",
+            image: FitConnectPro,
+            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
         }
     ];
     
@@ -21,7 +46,6 @@ function Portfolio() {
                         <img src={project.image} alt={project.title} />
                         <h3>{project.title}</h3>
                         <div className="project-links">
-                            <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer">Deployed App</a>
                             <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                         </div>
                     </div>
