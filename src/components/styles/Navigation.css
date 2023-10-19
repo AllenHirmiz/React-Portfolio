@@ -1,0 +1,45 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    margin: 10px;
+    padding: 0; /* Removing padding from here because it's now added to the button */
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+nav button {
+    background-color: transparent; /* Remove default button background */
+    border: none; /* Remove default button border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: inherit; /* Use the same font size as the parent */
+    color: inherit; /* Use the same color as the parent */
+    cursor: pointer; /* Hand pointer when hovering over button */
+    border-radius: inherit; /* Use the same border-radius as the parent */
+    outline: none; /* Remove default outline (optional) */
+    width: 100%; /* Make the button take up the full width of the li */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav li:hover {
+    background-color: #1e1479;
+    color: #fff;
+    border: 2px solid white; 
+}
+
+/* Active and Inactive button styles */
+
+nav button.active {
+    border: 2px solid #007BFF; /* Blue border for active button */
+    background-color: #007BFF; /* Blue background for active button */
+    color: white;
+}
+
+nav button.inactive {
+    /* You can leave this empty or add any additional styles for the inactive state, if needed */
+}

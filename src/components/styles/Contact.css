@@ -1,0 +1,35 @@
+.contact-section {
+    padding-left: 40px; 
+    padding-right: 40px; 
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.invalid-feedback {
+    color: red;
+    display: none;
+}
+
+input[data-touched="true"]:required:invalid, 
+textarea[data-touched="true"]:required:invalid {
+    border-color: red;
+}
+
+input[data-touched="true"]:required:invalid + .invalid-feedback, 
+textarea[data-touched="true"]:required:invalid + .invalid-feedback {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px; 
+}
+
+input, textarea {
+    display: block;
+    width: 80%; 
+}

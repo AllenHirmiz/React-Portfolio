@@ -1,0 +1,22 @@
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers content horizontally */
+    padding-left: 40px; 
+    padding-right: 40px; 
+}
+
+.profile-picture-wrapper {
+    width: 100%;
+    max-width: 300px; /* adjust based on your desired maximum width for the image */
+    margin: 20px 0; /* add some space above and below the image */
+    overflow: hidden; 
+}
+
+.profile-picture {
+    display: block; /* removes the default bottom margin of images */
+    max-width: 100%; /* ensures the image doesn't exceed the wrapper's width */
+    height: auto; /* maintains aspect ratio */
+    border-radius: 50%; /* makes the image circular, remove if you don't want this */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: adds a subtle shadow */
+}
