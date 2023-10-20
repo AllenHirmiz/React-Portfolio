@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Portfolio.css';
 import FitConnectPro from '../../assets/images/Fit-Connect-Pro.png';
 

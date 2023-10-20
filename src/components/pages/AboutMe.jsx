@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/AboutMe.css';
 import profilePic from '../../assets/images/allen-hirmiz.jpg';
 

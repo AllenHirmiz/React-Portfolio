@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Resume.css';
 import resume from '../../assets/resume-doc/resume.pdf';
 
@@ -6,7 +7,7 @@ function Resume () {
         <div className='resume-section'>
             <p>Click button below to download resume:</p>
             <a href={resume} download>
-                <button>Download</button>
+                <button class="btn btn-primary btn-lg">Download</button>
             </a>
             <br />
             <p>Development Skills include topics such as:</p>
