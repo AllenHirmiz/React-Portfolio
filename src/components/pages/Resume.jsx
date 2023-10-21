@@ -6,7 +6,7 @@ function Resume () {
     return (
         <div className='resume-section'>
             <p>Click button below to download resume:</p>
-            <a href="https://docs.google.com/document/d/1nh585hvZdk-WqdcF-1lyOt6Y1wUZcxmhQ9wPjcKC6Is/edit?usp=share_link" download>
+            <a href="https://www.dropbox.com/scl/fi/016zrotlnmfg9p0vfp5hq/Allen-Hirmiz-Resume.pdf?rlkey=w0lhxo3yl47uv571qxjzt8wa0&dl=0" download>
                 <button class="btn btn-primary btn-lg">Download</button>
             </a>
             <br />
