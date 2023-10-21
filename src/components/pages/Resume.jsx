@@ -6,7 +6,9 @@ function Resume () {
     return (
         <div className='resume-section'>
             <p>Click button below to download resume:</p>
-
+            <a href="https://docs.google.com/document/d/1nh585hvZdk-WqdcF-1lyOt6Y1wUZcxmhQ9wPjcKC6Is/edit?usp=share_link" download>
+                <button class="btn btn-primary btn-lg">Download</button>
+            </a>
             <br />
             <p>Development Skills include topics such as:</p>
             <ul>
