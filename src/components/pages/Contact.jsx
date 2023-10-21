@@ -17,6 +17,10 @@ function Contact() {
                     </div>
                     <div className="invalid-feedback">Name is required</div>
                 </div>
+
+                <div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegQp4yfvs7P5dlxyETZHEUNZmWrIL0tDhkOViTWcIx4DD28Q/viewform?embedded=true" width="640" height="954" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
                 
                 <div className="form-group">
                     <div>
