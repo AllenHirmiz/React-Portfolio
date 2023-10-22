@@ -1,9 +1,7 @@
 .container {
     border-radius: 15px;
     border: 2px solid black; 
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 80px;
-    margin-top: 10px;
-    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
 }

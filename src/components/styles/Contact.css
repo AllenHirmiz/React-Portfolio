@@ -1,8 +1,10 @@
 .contact-section {
-    padding-left: 40px; 
-    padding-right: 40px; 
-    margin-bottom: 80px;
-    margin-top: 40px;
+    margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+.google-form{
+    text-align: center;
 }
 
 .form-group {

@@ -8,11 +8,21 @@ function AboutMe() {
             <div className="profile-picture-wrapper">
                 <img src={profilePic} alt="Profile Picture" className="profile-picture" />
             </div>
+            <br />
             <p>
-                Coming from a background in financial services, I've always been intrigued by how numbers intersect with tech. This led me down the rabbit hole of web development, pushing me to dive headfirst into a coding course.
+                Started my development journey from falling in love with how computers work, and advanced my knowledge by studying ICT certifications in TAFE NSW.
             </p>
             <p>
-                Now, equipped with coding skills, I'm on a mission to bridge the gap between finance and technology. Building and optimizing, one line of code at a time. I'd love for you to take a look at my portfolio to see the projects that I've been pouring my energy into.
+                This knowledge allowed me to secure my first IT role in support help desk, started this role back in 2016 and then advancing to senior level help desk.
+            </p>
+            <p>
+                After that advance to manage my own support team as a Support manager where I had the chance to work closely to the developers that allowed me to fall in love with coding.
+            </p>
+            <p>
+                Now, studying Full Stack coding code to advance my coding skill to the new level where I'm aiming to fall advance my coding skill further. 
+            </p>
+            <p>
+                Review my portfolio to view my latest projects and projects by clicking portfolio button that is located at the nav bar above.
             </p>
         </div>
     )
