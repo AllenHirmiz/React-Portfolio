@@ -1,14 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Portfolio.css';
 import FitConnectPro from '../../assets/images/Fit-Connect-Pro.png';
+import TaskPro from '../../assets/images/dashboard.jpg'
+import BookSearch from '../../assets/images/Book-Search-Engine.png'
+import LogoMaker from '../../assets/images/LogoMaker.png'
+import Weather from '../../assets/images/Weather.png'
+import AgendaScheduler from '../../assets/images/Agenda-Scheduler.png'
 
 function Portfolio() {
     // Sample data for six projects
     const projects = [
         {
-            title: "Fit-Connect Pro",
-            image: FitConnectPro,
-            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+            title: "TaskPro",
+            image: TaskPro,
+            repoUrl: "https://github.com/AllenHirmiz/Team-5-Task-Manager"
         },
         {
             title: "Fit-Connect Pro",
@@ -16,24 +21,24 @@ function Portfolio() {
             repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
         },
         {
-            title: "Fit-Connect Pro",
-            image: FitConnectPro,
-            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+            title: "Book Search Engine",
+            image: BookSearch,
+            repoUrl: "https://github.com/AllenHirmiz/Book-Search-Engine"
         },
         {
-            title: "Fit-Connect Pro",
-            image: FitConnectPro,
-            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+            title: "Free SVG Logo Maker",
+            image: LogoMaker,
+            repoUrl: "https://github.com/AllenHirmiz/Free-SVG-Logo-Maker"
         },
         {
-            title: "Fit-Connect Pro",
-            image: FitConnectPro,
-            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+            title: "5 Days Weather Dashboard",
+            image: Weather,
+            repoUrl: "https://github.com/AllenHirmiz/5-Days-Weather-Dashboard"
         },
         {
-            title: "Fit-Connect Pro",
-            image: FitConnectPro,
-            repoUrl: "https://github.com/AllenHirmiz/Fit-Connect-Pro"
+            title: "Agenda Scheduler",
+            image: AgendaScheduler,
+            repoUrl: "https://github.com/AllenHirmiz/Agenda-Scheduler"
         }
     ];
     
